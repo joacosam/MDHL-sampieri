@@ -6,22 +6,31 @@
 }
 
 
-header { margin: 50px 50px;
+header { 
     position: relative;
 }
 
-h1 {display: inline-block; 
-left: 190px;
-position: absolute;
-top: 360px;
+.titulo {
+    background-image: url(../assets/imagenes/design1_image2.jpg);
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 0px -100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 { 
 font-size: 65px;
 }
 
-#logo { display: inline-block;
+#logo {
     position: absolute;
     height: 150px;
     width: 150px;
     top: 1px;
+    left: 10px;
     
 }
 
@@ -32,70 +41,73 @@ width: 1300px;
 height: 400px;
 }
 
-h2 {
-    display: none;
+.subtitulo {
+    /* background: radial-gradient(rgb(4, 95, 4), white); */
+    background: linear-gradient(90deg, green, white);
+    color: rgb(53, 53, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-main { position: relative;
-    margin: 50px 50px;
-    overflow: visible;
-}
 
 .navvar {
-padding: 10px;
+    background: linear-gradient(90deg, green, white);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    top: 2px;
+}
+body {
+    overflow-x: hidden;
+background-color:  rgb(239, 239, 46);
 }
 
 nav a {
-display: inline-block;
-position: relative;
 text-decoration: none;
 color:black;
-bottom: 600px;  
-left: 160px;
-padding: 80px;
-font-size: 50px;
+font-size: 60px;
 }
 
-.art1 {
-    position: absolute;
-    left: 50px;
-    top: 12px;}
-    
-    .art2 {
-    position: absolute;
-    left: 50px;
-    top: 70px;
-    padding-top: 3px;
-    }
-    
-    .art3{
-    position: absolute;
-    left: 50px;
-    top: 125px;
-    }
+main { display: flex;
+    background-color: rgb(239, 239, 46);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
 
-#art1 {
-position: absolute;
-left: 40px;
-top: 15px;
-font-size: 25px;}
+a[href="#"]{
+    color: yellow;
+}
 
-#art1 p {
-padding: 7px;}
+a:hover {
+color: yellow;
+cursor: pointer;
+}
 
-
-
-
+section{
+    font-size: 25px;
+    padding: 17px;
+}
 #imagen1 {
-    display: none;
+    margin-bottom: 10px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
     }
 #imagen2 {
-    display: none;
+    margin-bottom: 100px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
 }
-#imagen3{
-display: none;
+#imagen3 {
+    margin-left: 10px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
 }
-#fondo {
-display: none;
-}
+
