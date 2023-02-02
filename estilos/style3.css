@@ -80,6 +80,9 @@ a[href="#"]{
     color: yellow;
 }
 
+.articulo {
+margin-left: 15px;}
+
 a:hover {
 color: yellow;
 cursor: pointer;
