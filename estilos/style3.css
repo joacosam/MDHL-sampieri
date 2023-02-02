@@ -114,3 +114,8 @@ section{
     border-radius: 200px;
 }
 
+.rulestitulo{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 40px;}
