@@ -70,18 +70,15 @@ font-size: 60px;
 }
 
 main { display: flex;
+    flex-wrap: wrap;
     background-color: rgb(239, 239, 46);
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2rem;
 }
 
-a[href="#"]{
-    color: yellow;
-}
-
 .articulo {
-margin-left: 15px;}
+margin-left: 30px;}
 
 a:hover {
 color: yellow;
@@ -89,6 +86,7 @@ cursor: pointer;
 }
 
 section{
+    max-width: 50vw;
     font-size: 25px;
     padding: 17px;
 }
@@ -118,4 +116,45 @@ section{
 display: flex;
 align-items: center;
 justify-content: center;
-padding-bottom: 40px;}
+padding-bottom: 40px;
+}
+
+table{
+height: 30vw;
+width: 70vw;
+text-align: center;
+border: 5px solid  green;
+background: radial-gradient(rgb(4, 95, 4), white);
+border-radius: 20px;
+border-spacing: 0;
+}
+
+th, td {
+    font-size: 25px;
+    border-bottom: 2px black solid;
+}
+tr:nth-child(even) :hover{ 
+    yellow    
+}
+
+.schedule{
+font-size: 40px;
+}
+
+.textostabla {
+padding: 10px;
+}
+
+.textotabla {
+padding: 10px
+}
+
+.mailynumero{
+display: flex;
+justify-content: space-around;
+margin-bottom: 5px;}
+
+.listabc {
+list-style: lower-latin;
+}
+
