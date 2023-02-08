@@ -59,7 +59,7 @@ height: 400px;
 }
 
 
-.navvar {
+    nav {
     background: linear-gradient(90deg, green, white);
     display: flex;
     padding: 10px;
@@ -80,7 +80,7 @@ font-size: 30px;
 main { display: flex;
     flex-wrap: wrap;
     background-color: rgb(239, 239, 46);
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
@@ -213,5 +213,46 @@ list-style: lower-latin;
     
 }
 
-
 /* mediaquery */
+
+footer { display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(239, 239, 46);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.mapa2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.botonenviar{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+legend {
+font-size: 30px;
+}
+
+fieldset{
+padding: 10px;
+margin: 1px 20px 1px 20px;
+}
+
